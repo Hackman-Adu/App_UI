@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+    android:layout_height="match_parent">
+	<ImageView
+		android:src="@drawable/user_profile"
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/imageView1"
+		android:layout_gravity="center"
+		android:layout_marginTop="21dp"
+		android:layout_marginBottom="5dp"
+		android:scaleType="centerCrop"
+		android:layout_marginRight="0.0dp" />
+	<EditText
+		android:layout_width="320.0dp"
+		android:layout_gravity="center"
+		android:hint="Enter username"
+		android:textSize="16sp"
+		android:textColor="#ffffff"
+		android:gravity="center"
+		android:layout_marginTop="12dp"
+		android:layout_height="48.5dp"
+		android:id="@+id/editText1"
+		android:textColorHint="@android:color/white"
+		android:background="@drawable/roundtextfield"/>
+	<EditText
+		android:inputType="textPassword"
+		android:gravity="center"
+		android:textColor="#ffffff"
+		android:hint="Enter password"
+		android:textSize="16sp"
+		android:layout_width="320.0dp"
+		android:layout_gravity="center"
+		android:layout_marginTop="17dp"
+		android:textColorHint="@android:color/white"
+		android:layout_height="48.5dp"
+		android:background="@drawable/roundtextfield"
+		android:id="@+id/editText1" />
+	<Button
+		android:text="Login"
+		android:layout_width="320.0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="17dp"
+		android:layout_gravity="center"
+		android:textAllCaps="false"
+		android:textSize="16sp"
+		android:textColor="#242626"
+		android:background="@drawable/roundbutton"
+		android:id="@+id/button1" />
+	<TextView
+		android:text=" [ Keep your notes safe at no cost ]"
+		android:layout_width="278.0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:layout_marginTop="50dp"
+		android:textColor="#fcff01"
+		android:textSize="16sp"
+		android:textStyle="italic"
+		android:id="@+id/textView1" />
+
+
+
+</LinearLayout>
